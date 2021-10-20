@@ -27,9 +27,29 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/CSSAdded/bootstrap.min.css",
+              "./node_modules/bootstrap/dist/css/CSSAdded/aos.css",
+              "./node_modules/bootstrap/dist/css/CSSAdded/swiper-bundle.min.css",
+              "./node_modules/bootstrap/dist/css/CSSAdded/glightbox.min.css"
+              
+              
+
             ],
-            "scripts": []
+            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/aos.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/bootstrap.bundle.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/glightbox.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/glightbox.min.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/isotope.pkgd.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/isotope.pkgd.min.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/purecounter.js",
+                        "./node_modules/bootstrap/dist/js/JSAdded/swiper-bundle.min.js"
+            
+            
+            
+            ]
+            
           },
           "configurations": {
             "production": {
