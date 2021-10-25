@@ -28,6 +28,8 @@ import { NIHCTUAllienceComponent } from './AboutUs/nih-ctu-allience/nih-ctu-alli
 import { InitiativesComponent } from './AboutUs/initiatives/initiatives.component';
 import { SiteAcrediationComponent } from './AboutUs/site-acrediation/site-acrediation.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { GetInvolvedFormComponent } from './Forms/get-involved-form/get-involved-form.component';
+import { RegisterYourSiteFormComponent } from './Forms/register-your-site-form/register-your-site-form.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     GovernmentAndRegulatoryAgenciesComponent,
     NIHCTUAllienceComponent,
     InitiativesComponent,
-    SiteAcrediationComponent
+    SiteAcrediationComponent,
+    GetInvolvedFormComponent,
+    RegisterYourSiteFormComponent
   ],
   imports: [
     BrowserModule,

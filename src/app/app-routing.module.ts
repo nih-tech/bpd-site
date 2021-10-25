@@ -24,6 +24,8 @@ import { GovernmentAndRegulatoryAgenciesComponent } from './Stakeholders/governm
 import { InitiativesComponent } from './AboutUs/initiatives/initiatives.component';
 import { NIHCTUAllienceComponent } from './AboutUs/nih-ctu-allience/nih-ctu-allience.component';
 import { SiteAcrediationComponent } from './AboutUs/site-acrediation/site-acrediation.component';
+import { GetInvolvedFormComponent } from './Forms/get-involved-form/get-involved-form.component';
+import { RegisterYourSiteFormComponent } from './Forms/register-your-site-form/register-your-site-form.component';
 
 const routes: Routes = [
   // =====================Stakeholders Dropdown Paths=======================
@@ -54,6 +56,9 @@ const routes: Routes = [
   // =====================Events Dropdown Paths=======================
   { path: 'Allies', component: AlliesComponent },
   { path: 'ClinicalTrials', component: ClinicalTrialsComponent },
+  // =====================Forms=======================
+  { path: 'get-involved-form', component: GetInvolvedFormComponent },
+  { path: 'register-your-site-form', component: RegisterYourSiteFormComponent },
 
 
 ];
