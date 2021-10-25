@@ -1,4 +1,4 @@
-
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
   /*--------------------------------------------------------------
   # Sections
   --------------------------------------------------------------*/
@@ -238,7 +238,7 @@
             font-size: 28px;
             font-weight: bold;
             padding: 0;
-            margin: 0 0 20px 0;
+            margin: 20px 0 20px 0;
             color: #20327f;
         }
       .bg_yellow .buton_Link_Forms {

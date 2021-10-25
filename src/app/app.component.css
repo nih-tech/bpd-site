@@ -385,8 +385,6 @@ section {
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
-.Knowledge_buton_Styling {
-}
 .Buton_margin{
     margin-top:50px!important;
 }
@@ -1081,7 +1079,9 @@ section {
 }
 /*....................footer.....................//*/
 .footer_styling {
-    text-align: center
+    text-align: center;
+    margin-top: 30px;
+    top: auto;
 }
     .footer_styling p{
         color: darkblue;
