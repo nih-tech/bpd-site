@@ -35,7 +35,6 @@
               "src/assets/AddedCss/swiper-bundle.min.css",
               "src/assets/AddedCss/aos.css",
               "src/assets/AddedCss/glightbox.min.css"
-
             ],
             "scripts": [
               "src/assets/jquery/dist/jquery.min.js",
@@ -50,11 +49,7 @@
               "src/assets/AddedJs/swiper-bundle.min.js",
               "src/assets/bootstrap/dist/js/bootstrap.js",
               "src/assets/AddedJs/main.js"
-              
-                        
-
             ]
-            
           },
           "configurations": {
             "production": {
@@ -124,6 +119,10 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
