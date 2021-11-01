@@ -168,20 +168,21 @@
             }
 /* ============table==================== */
 .Uni_ind_Table{
-    width: 90%;
+    min-width: 80%;
     border: 3px solid white;
+    margin: auto;
 }
 .Uni_ind_Table tr th{
     width: 50%;
     background-color: #950006;
     border: 3px solid white;
-    height: 55px;
+    height: 45px;
     padding: 10px;
 }
 .Uni_ind_Table tr td{
     border: 3px solid white;
-    height: 45px;
-    padding: 10px;
+    height: 35px;
+    padding: 7px;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
 tr:nth-child(odd) {background-color: mistyrose;}
