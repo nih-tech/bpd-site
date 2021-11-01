@@ -155,7 +155,7 @@
   /*==============================Dropdown Pages Styling =========================*/
   /*==============================Dropdown Pages Styling =========================*/
   .container_manual{
-      padding:0px 50px;
+      padding:60px 50px;
   }
   .entry_section_styling ul {
       list-style-type: none;
@@ -195,30 +195,7 @@
           color: #20327f;
       }
   
-  .side_div_p1 .back_img {
-       /* background-image: url(\src\assets\Images\bg_yellow.png); */
-      /* background-color: none; */
-      /*height: 60px;*/
-      /* background-position: center; */
-      background-repeat: repeat-x;
-      /* background-size: cover; */
-      position: relative;
-      padding: 30px 15px 15px 15px;
-  }
-  .side_div_p1 {
-      border-top: 1px solid #c1c5cc;
-      /*padding: 30px 15px 15px 15px;*/
-  }
-  .side_div_p1 ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-  .side_div_p1 ul li{
-      display: flex;
-  }
-      .side_div_p1 ul i {
-          margin-right: 10px;
-      }
+  
   .bg_yellow {
       padding: 10px 15px 15px 15px;
       border-top: 1px solid #c1c5cc;
