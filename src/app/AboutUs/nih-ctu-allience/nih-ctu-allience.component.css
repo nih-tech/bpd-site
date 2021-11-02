@@ -20,14 +20,14 @@
     font-weight: 700;
     padding: 0 0 0 0;
     margin: 0 0 15px 0;
-    color: #012970;
+    color: #4153f2;
     position: relative;
   }
   .blog .sidebar {
     background-color: #f7f8fb;
 }
   .blog .sidebar .categories ul a {
-    color: #012970;
+    color: #4153f2;
     transition: 0.3s;
     text-decoration: none!important;
   }
@@ -81,7 +81,7 @@
 }
       .side_div_links ul li i {
           margin-right: 10px;
-          color: #20327f;
+          color: #4153f2;
       }
   
   
@@ -105,7 +105,7 @@
             font-weight: bold;
             padding: 0;
             margin: 20px 0 20px 0;
-            color: #20327f;
+            color: #4153f2;
         }
       .bg_yellow .buton_Link_Forms {
         margin-top: 30px;
@@ -141,12 +141,12 @@
                 display:flex;
             }
             .Allies_div ul li a{
-                color: #012970;
+                color: #4153f2;
                 text-decoration: none!important;
             }
                 .Allies_div ul li i {
                     margin-right: 10px;
-                    color: #20327f;
+                    color: #4153f2;
                 }
         .Allies_div .buton_Link_Forms {
             margin-top: 30px;
@@ -171,6 +171,7 @@
     min-width: 80%;
     border: 3px solid white;
     margin: auto;
+    color: white;
 }
 .Uni_ind_Table tr th{
     width: 50%;
@@ -183,6 +184,11 @@
     border: 3px solid white;
     height: 35px;
     padding: 7px;
+    color: black;
+}
+.Uni_ind_Table tr td a{
+    text-decoration: none;
+    color: black;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
 tr:nth-child(odd) {background-color: mistyrose;}
@@ -193,5 +199,12 @@ tr:nth-child(odd) {background-color: mistyrose;}
     font-weight: bold;
     padding: 0;
     margin: 20px 0 20px 0;
-    color: #20327f;
+    color: #4153f2;
+}
+
+
+/* ============unitab============= */
+.uni_div_images img{
+width: 200px;
+margin-top: 15px;
 }
