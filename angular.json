@@ -48,7 +48,8 @@
               "src/assets/AddedJs/purecounter.js",
               "src/assets/AddedJs/swiper-bundle.min.js",
               "src/assets/bootstrap/dist/js/bootstrap.js",
-              "src/assets/AddedJs/main.js"
+              "src/assets/AddedJs/main.js",
+              "src/assets/AddedJs/Nav.js"
             ]
           },
           "configurations": {
