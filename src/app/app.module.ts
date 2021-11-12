@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CROCMOsComponent } from './Stakeholders/crocmos/crocmos.component';
@@ -30,6 +28,11 @@ import { SiteAcrediationComponent } from './AboutUs/site-acrediation/site-acredi
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { GetInvolvedFormComponent } from './Forms/get-involved-form/get-involved-form.component';
 import { RegisterYourSiteFormComponent } from './Forms/register-your-site-form/register-your-site-form.component';
+import { KnowledgePageComponent } from './FooterPages/knowledge-page/knowledge-page.component';
+import { TermsAndConditionComponent } from './FooterPages/terms-and-condition/terms-and-condition.component';
+import { PrivacyPolicyComponent } from './FooterPages/privacy-policy/privacy-policy.component';
+import { ContactUsComponent } from './FooterPages/contact-us/contact-us.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -58,15 +61,17 @@ import { RegisterYourSiteFormComponent } from './Forms/register-your-site-form/r
     InitiativesComponent,
     SiteAcrediationComponent,
     GetInvolvedFormComponent,
-    RegisterYourSiteFormComponent
+    RegisterYourSiteFormComponent,
+    KnowledgePageComponent,
+    TermsAndConditionComponent,
+    PrivacyPolicyComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // Specify your library as an import
     SlickCarouselModule,
     NoopAnimationsModule,
-    
   ],
   providers: [],
   bootstrap: [AppComponent]

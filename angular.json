@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "CTU-NIH": {
+    "CTU-NIH-Project": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/CTU-NIH",
+            "outputPath": "dist/CTU-NIH-Project",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,26 +27,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/AddedCss/bootstrap.min.css",
-              "src/assets/bootstrap-icons/font/bootstrap-icons.css",
-              "src/assets/slick-carousel/slick/slick.scss",
-              "src/assets/slick-carousel/slick/slick-theme.scss",
-              "src/styles.css"
+              "src/assets/Libraries/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "./node_modules/slick-carousel/slick/slick.css",
+              "./node_modules/slick-carousel/slick/slick-theme.css"
             ],
             "scripts": [
-              "src/assets/jquery/dist/jquery.min.js",
-              "src/assets/bootstrap/dist/js/bootstrap.js",
-              "src/assets/slick-carousel/slick/slick.min.js",
-              "src/assets/AddedJs/aos.js",
-              "src/assets/AddedJs/bootstrap.bundle.js",
-              "src/assets/AddedJs/glightbox.js",
-              "src/assets/AddedJs/glightbox.min.js",
-              "src/assets/AddedJs/isotope.pkgd.js",
-              "src/assets/AddedJs/isotope.pkgd.min.js",
-              "src/assets/AddedJs/purecounter.js",
-              "src/assets/AddedJs/swiper-bundle.min.js",
-              "src/assets/AddedJs/main.js",
-              "src/assets/AddedJs/Nav.js"
+              "src/assets/Libraries/jquery/dist/jquery.js",
+              "src/assets/Libraries/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/Libraries/AddedJs/nav.js",
+              "./node_modules/slick-carousel/slick/slick.min.js"
+
             ]
           },
           "configurations": {
@@ -54,13 +45,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "4mb",
-                  "maximumError": "5mb"
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4mb",
-                  "maximumError": "5mb"
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
                 }
               ],
               "fileReplacements": [
@@ -86,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "CTU-NIH:build:production"
+              "browserTarget": "CTU-NIH-Project:build:production"
             },
             "development": {
-              "browserTarget": "CTU-NIH:build:development"
+              "browserTarget": "CTU-NIH-Project:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -97,7 +88,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "CTU-NIH:build"
+            "browserTarget": "CTU-NIH-Project:build"
           }
         },
         "test": {
@@ -112,18 +103,13 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {}
         }
       }
     }
   },
-  "defaultProject": "CTU-NIH"
+  "defaultProject": "CTU-NIH-Project"
 }

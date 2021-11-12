@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Router } from '@angular/router'
 import { CROCMOsComponent } from './Stakeholders/crocmos/crocmos.component';
 import { IndexComponent } from './index/index.component';
 import { EthicsCommiteeeComponent } from './Stakeholders/ethics-commiteee/ethics-commiteee.component';
@@ -26,7 +25,11 @@ import { NIHCTUAllienceComponent } from './AboutUs/nih-ctu-allience/nih-ctu-alli
 import { SiteAcrediationComponent } from './AboutUs/site-acrediation/site-acrediation.component';
 import { GetInvolvedFormComponent } from './Forms/get-involved-form/get-involved-form.component';
 import { RegisterYourSiteFormComponent } from './Forms/register-your-site-form/register-your-site-form.component';
-
+import { KnowledgePageComponent } from './FooterPages/knowledge-page/knowledge-page.component';
+import { TermsAndConditionComponent } from './FooterPages/terms-and-condition/terms-and-condition.component';
+import { PrivacyPolicyComponent } from './FooterPages/privacy-policy/privacy-policy.component';
+import { ContactUsComponent } from './FooterPages/contact-us/contact-us.component';
+import { AboutUsPageComponent } from './FooterPages/about-us-page/about-us-page.component';
 const routes: Routes = [
   // =====================Stakeholders Dropdown Paths=======================
   { path: 'CROCMOs', component: CROCMOsComponent },
@@ -59,8 +62,12 @@ const routes: Routes = [
   // =====================Forms=======================
   { path: 'get-involved-form', component: GetInvolvedFormComponent },
   { path: 'register-your-site-form', component: RegisterYourSiteFormComponent },
-
-
+  // =====================Footer Paths=======================
+  { path: 'AboutUs', component: AboutUsPageComponent },
+  { path: 'ContactUs', component: ContactUsComponent },
+  { path: 'KnowledgePage', component: KnowledgePageComponent },
+  { path: 'PrivacyPolicy', component: PrivacyPolicyComponent },
+  { path: 'TermsandCondition', component: TermsAndConditionComponent },
 ];
 
 @NgModule({
