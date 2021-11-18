@@ -13,19 +13,19 @@
                     <div class="row gy-4">
 
                         <div class="col-md-6">
-                            <label class="Lable_style">Organization Name<span>*</span></label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            <label for="organizationName" class="Lable_style">Organization Name<span>*</span></label>
+                            <input type="text" name="organizationName" id="organizationName" class="form-control" [(ngModel)]="siteDetails.organizationName" placeholder="Organization Name" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">Company Website</label>
-                            <input type="text" name="company" class="form-control" placeholder="Your Name" required>
+                            <label for="companyName" class="Lable_style">Company Website</label>
+                            <input type="text" name="companyName" id="companyName" class="form-control" [(ngModel)]="siteDetails.companyName" placeholder="Company Name" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">Country<span>*</span></label>
-                            <select name="country" class="form-control" id="country">
-                                <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
+                            <label for="country" class="Lable_style">Country<span>*</span></label>
+                            <select name="Country" [(ngModel)]="siteDetails.Country" class="form-control" placeholder="Select a country ... " id="country">
+                                <option value="0" label="Select a country ... " selected="selected"></option>
                                 <optgroup id="country-optgroup-Africa" label="Africa">
                                     <option value="DZ" label="Algeria">Algeria</option>
                                     <option value="AO" label="Angola">Angola</option>
@@ -289,30 +289,24 @@
                                     <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
                                 </optgroup>
                             </select>
-                            <!-- <select class=" form-control" placeholder="Your Name">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required> -->
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">State/Province</label>
-                            <input type="text" name="state" class="form-control" placeholder="Your Name" required>
+                            <label for="State" class="Lable_style">State/Province</label>
+                            <input type="text" name="State" id="State"  [(ngModel)]="siteDetails.State" class="form-control" placeholder="Your Name" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">City</label>
-                            <input type="text" name="city" class="form-control" placeholder="Your Name" required>
+                            <label for="City" class="Lable_style">City</label>
+                            <input type="text" name="City" id="City" [(ngModel)]="siteDetails.City" class="form-control" placeholder="Your Name" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">Zip/Postal Code</label>
-                            <input type="text" name="state" class="form-control" placeholder="Your Name" required>
+                            <label for="PostalCOde" class="Lable_style">Zip/Postal Code</label>
+                            <input type="text" name="PostalCOde" id="PostalCOde" [(ngModel)]="siteDetails.PostalCOde" class="form-control" placeholder="Your Name" required>
                         </div>
 
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <label class="Lable_style">Street Address</label>
                             <input type="text" name="address" class="form-control" placeholder="Your Name" required>
                         </div>
@@ -320,57 +314,57 @@
                         <div class="col-md-6">
                             <label class="Lable_style">Address2</label>
                             <input type="text" name="address2" class="form-control" placeholder="Your Name" required>
+                        </div> -->
+
+                        <div class="col-md-6">
+                            <label for="FirstName" class="Lable_style">First Name (Official Representative)<span>*</span></label>
+                            <input type="text" name="FirstName" id="FirstName" [(ngModel)]="siteDetails.FirstName" class="form-control" placeholder="First Name" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">First Name (Official Representative)<span>*</span></label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            <label for="LastName" class="Lable_style">Last Name (Official Representative)<span>*</span></label>
+                            <input type="text" name="LastName" id="LastName" [(ngModel)]="siteDetails.LastName" class="form-control" placeholder="Last Name" required>
                         </div>
 
-                        <div class="col-md-6">
-                            <label class="Lable_style">Last Name (Official Representative)<span>*</span></label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div>
-
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <label class="Lable_style">Title</label>
                             <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div>
+                        </div> -->
 
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <label class="Lable_style">Primary Contact Name</label>
                             <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div> -->
+
+                        <div class="col-md-6">
+                            <label for="PrimaryContactTitle" class="Lable_style">Primary Contact Title</label>
+                            <input type="text" name="PrimaryContactTitle" id="PrimaryContactTitle" [(ngModel)]="siteDetails.PrimaryContactTitle" class="form-control" placeholder="Primary Contact Title" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">Primary Contact Title</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            <label for="PrimaryContactPhoneNumber" class="Lable_style">Primary Contact Phone No.<span>*</span></label>
+                            <input type="text" name="PrimaryContactPhoneNumber" id="PrimaryContactPhoneNumber" [(ngModel)]="siteDetails.PrimaryContactPhoneNumber" class="form-control" placeholder="Primary Contact Phone No." required>
                         </div>
 
-                        <div class="col-md-6">
-                            <label class="Lable_style">Primary Contact Phone No.<span>*</span></label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div>
-
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <label class="Lable_style">Primary Contact Email Address.<span>*</span></label>
                             <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div>
+                        </div> -->
 
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <label class="Lable_style">List any Primary Therapeutic Areas (Each separated by commas(,)</label>
                             <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div>
+                        </div> -->
 
                         <div class="col-md-6">
-                            <label class="Lable_style">Stages of Research Involvement</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            <label for="stageofResearchInvolvment" class="Lable_style">Stages of Research Involvement</label>
+                            <input type="text" name="stageofResearchInvolvment" id="stageofResearchInvolvment" [(ngModel)]="siteDetails.stageofResearchInvolvment" class="form-control" placeholder="Stages of Research Involvement" required>
                         </div>
 
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <label class="Lable_style">Enter the Captcha (below)</label>
                             <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div>
+                        </div> -->
 
 
 
@@ -379,7 +373,7 @@
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div> -->
 
-                            <button type="submit">Register</button>
+                            <button type="submit" (click)="registerYourSite(siteDetails)" >Register</button>
                         </div>
 
                     </div>
