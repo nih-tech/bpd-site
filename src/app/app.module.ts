@@ -33,6 +33,8 @@ import { TermsAndConditionComponent } from './FooterPages/terms-and-condition/te
 import { PrivacyPolicyComponent } from './FooterPages/privacy-policy/privacy-policy.component';
 import { ContactUsComponent } from './FooterPages/contact-us/contact-us.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -72,6 +74,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     AppRoutingModule,
     SlickCarouselModule,
     NoopAnimationsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
