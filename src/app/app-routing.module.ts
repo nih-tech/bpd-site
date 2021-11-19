@@ -30,6 +30,12 @@ import { TermsAndConditionComponent } from './FooterPages/terms-and-condition/te
 import { PrivacyPolicyComponent } from './FooterPages/privacy-policy/privacy-policy.component';
 import { ContactUsComponent } from './FooterPages/contact-us/contact-us.component';
 import { AboutUsPageComponent } from './FooterPages/about-us-page/about-us-page.component';
+import { GERIComponent } from './SideBarLinks/geri/geri.component';
+import { PSCIComponent } from './SideBarLinks/psci/psci.component';
+import { QASIComponent } from './SideBarLinks/qasi/qasi.component';
+import { SOQIComponent } from './SideBarLinks/soqi/soqi.component';
+import { GlobalChangeComponent } from './SideBarLinks/global-change/global-change.component';
+
 const routes: Routes = [
   { path: '',   redirectTo: '/Index', pathMatch: 'full' }, // redirect to `first-componen
   // =====================Stakeholders Dropdown Paths=======================
@@ -63,6 +69,12 @@ const routes: Routes = [
   // =====================Forms=======================
   { path: 'get-involved-form', component: GetInvolvedFormComponent },
   { path: 'register-your-site-form', component: RegisterYourSiteFormComponent },
+  // =====================Side Panel Links=======================
+  { path: 'GERI', component: GERIComponent },
+  { path: 'PSCI', component: PSCIComponent },
+  { path: 'QASI', component: QASIComponent },
+  { path: 'SOQI', component: SOQIComponent },
+  { path: 'GlobalChange', component: GlobalChangeComponent },
   // =====================Footer Paths=======================
   { path: 'AboutUs', component: AboutUsPageComponent },
   { path: 'ContactUs', component: ContactUsComponent },

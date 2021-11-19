@@ -34,6 +34,11 @@ import { PrivacyPolicyComponent } from './FooterPages/privacy-policy/privacy-pol
 import { ContactUsComponent } from './FooterPages/contact-us/contact-us.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { FormsModule } from '@angular/forms';
+import { GERIComponent } from './SideBarLinks/geri/geri.component';
+import { PSCIComponent } from './SideBarLinks/psci/psci.component';
+import { QASIComponent } from './SideBarLinks/qasi/qasi.component';
+import { SOQIComponent } from './SideBarLinks/soqi/soqi.component';
+import { GlobalChangeComponent } from './SideBarLinks/global-change/global-change.component';
 
 
 @NgModule({
@@ -67,7 +72,12 @@ import { FormsModule } from '@angular/forms';
     KnowledgePageComponent,
     TermsAndConditionComponent,
     PrivacyPolicyComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    GERIComponent,
+    PSCIComponent,
+    QASIComponent,
+    SOQIComponent,
+    GlobalChangeComponent
   ],
   imports: [
     BrowserModule,
