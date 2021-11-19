@@ -2,13 +2,7 @@
   /*--------------------------------------------------------------
   # Sections
   --------------------------------------------------------------*/
-  section {
-    padding: 40px 0;
-    overflow: hidden;
-  }
-
-
-
+  
   .blog .entry .entry-img {
     max-height: 300px;
     /* margin: -30px -30px 20px -30px; */
@@ -155,7 +149,7 @@
   /*==============================Dropdown Pages Styling =========================*/
   /*==============================Dropdown Pages Styling =========================*/
   .container_manual{
-      padding:60px 50px;
+      padding:10px 50px;
   }
   .entry_section_styling ul {
       list-style-type: none;

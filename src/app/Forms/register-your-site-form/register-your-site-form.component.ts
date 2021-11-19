@@ -5,11 +5,17 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './register-your-site-form.component.html',
   styleUrls: ['./register-your-site-form.component.css']
 })
-export class RegisterYourSiteFormComponent implements OnInit {
-
+export class RegisterYourSiteFormComponent{
+  Register()
+  {
+    console.log("Hello world")
+  }
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  // onRegister(){
+  //   alert("Hello world")
+  // }
+  
 }

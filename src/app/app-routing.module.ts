@@ -31,6 +31,7 @@ import { PrivacyPolicyComponent } from './FooterPages/privacy-policy/privacy-pol
 import { ContactUsComponent } from './FooterPages/contact-us/contact-us.component';
 import { AboutUsPageComponent } from './FooterPages/about-us-page/about-us-page.component';
 const routes: Routes = [
+  { path: '',   redirectTo: '/Index', pathMatch: 'full' }, // redirect to `first-componen
   // =====================Stakeholders Dropdown Paths=======================
   { path: 'CROCMOs', component: CROCMOsComponent },
   { path: 'Index', component: IndexComponent },
