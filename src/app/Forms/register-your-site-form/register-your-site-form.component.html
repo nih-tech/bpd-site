@@ -18,8 +18,8 @@
                         </div>
 
                         <div class="col-md-6">
-                            <label for="companyName" class="Lable_style">Company Website</label>
-                            <input type="text" name="companyName" id="companyName" class="form-control" [(ngModel)]="siteDetails.companyName" placeholder="Company Name" required>
+                            <label for="companyWebsite" class="Lable_style">Company Website</label>
+                            <input type="text" name="companyWebsite" id="companyWebsite" class="form-control" [(ngModel)]="siteDetails.companyWebsite" placeholder="Company Name" required>
                         </div>
 
                         <div class="col-md-6">
@@ -298,23 +298,23 @@
 
                         <div class="col-md-6">
                             <label for="City" class="Lable_style">City</label>
-                            <input type="text" name="City" id="City" [(ngModel)]="siteDetails.City" class="form-control" placeholder="Your Name" required>
+                            <input type="text" name="City" id="City" [(ngModel)]="siteDetails.City" class="form-control" placeholder="Your City" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="PostalCOde" class="Lable_style">Zip/Postal Code</label>
-                            <input type="text" name="PostalCOde" id="PostalCOde" [(ngModel)]="siteDetails.PostalCOde" class="form-control" placeholder="Your Name" required>
-                        </div>
-
-                        <!-- <div class="col-md-6">
-                            <label class="Lable_style">Street Address</label>
-                            <input type="text" name="address" class="form-control" placeholder="Your Name" required>
+                            <label for="PostalCode" class="Lable_style">Zip/Postal Code</label>
+                            <input type="text" name="PostalCode" id="PostalCOde" [(ngModel)]="siteDetails.PostalCode" class="form-control" placeholder="Postal Code" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label class="Lable_style">Address2</label>
-                            <input type="text" name="address2" class="form-control" placeholder="Your Name" required>
-                        </div> -->
+                            <label for="StreetAddress" class="Lable_style">Street Address</label>
+                            <input type="text" name="StreetAddress" id="StreetAddress" [(ngModel)]="siteDetails.StreetAddress" class="form-control" placeholder="Street Address" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="Address2" class="Lable_style">Address2</label>
+                            <input type="text" name="Address2" id="Address2" [(ngModel)]="siteDetails.Address2" class="form-control" placeholder="Address 2" required>
+                        </div>
 
                         <div class="col-md-6">
                             <label for="FirstName" class="Lable_style">First Name (Official Representative)<span>*</span></label>
@@ -326,39 +326,39 @@
                             <input type="text" name="LastName" id="LastName" [(ngModel)]="siteDetails.LastName" class="form-control" placeholder="Last Name" required>
                         </div>
 
-                        <!-- <div class="col-md-6">
-                            <label class="Lable_style">Title</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div> -->
-
-                        <!-- <div class="col-md-6">
-                            <label class="Lable_style">Primary Contact Name</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div> -->
-
                         <div class="col-md-6">
-                            <label for="PrimaryContactTitle" class="Lable_style">Primary Contact Title</label>
-                            <input type="text" name="PrimaryContactTitle" id="PrimaryContactTitle" [(ngModel)]="siteDetails.PrimaryContactTitle" class="form-control" placeholder="Primary Contact Title" required>
+                            <label for="Tittle" class="Lable_style">Title</label>
+                            <input type="text" name="Tittle" id="Tittle" [(ngModel)]="siteDetails.Tittle" class="form-control" placeholder="Title" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="PrimaryContactPhoneNumber" class="Lable_style">Primary Contact Phone No.<span>*</span></label>
-                            <input type="text" name="PrimaryContactPhoneNumber" id="PrimaryContactPhoneNumber" [(ngModel)]="siteDetails.PrimaryContactPhoneNumber" class="form-control" placeholder="Primary Contact Phone No." required>
+                            <label for="PrimaryContactName" class="Lable_style">Primary Contact Name</label>
+                            <input type="text" name="PrimaryContactName" id="PrimaryContactName" [(ngModel)]="siteDetails.PrimaryContactName" class="form-control" placeholder="Primary Contact Name" required>
                         </div>
 
-                        <!-- <div class="col-md-6">
-                            <label class="Lable_style">Primary Contact Email Address.<span>*</span></label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div> -->
-
-                        <!-- <div class="col-md-6">
-                            <label class="Lable_style">List any Primary Therapeutic Areas (Each separated by commas(,)</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                        </div> -->
+                        <div class="col-md-6">
+                            <label for="PrimaryContactTittle" class="Lable_style">Primary Contact Title</label>
+                            <input type="text" name="PrimaryContactTittle" id="PrimaryContactTittle" [(ngModel)]="siteDetails.PrimaryContactTittle" class="form-control" placeholder="Primary Contact Title" required>
+                        </div>
 
                         <div class="col-md-6">
-                            <label for="stageofResearchInvolvment" class="Lable_style">Stages of Research Involvement</label>
-                            <input type="text" name="stageofResearchInvolvment" id="stageofResearchInvolvment" [(ngModel)]="siteDetails.stageofResearchInvolvment" class="form-control" placeholder="Stages of Research Involvement" required>
+                            <label for="PrimaryContactPhone" class="Lable_style">Primary Contact Phone No.<span>*</span></label>
+                            <input type="text" name="PrimaryContactPhone" id="PrimaryContactPhone" [(ngModel)]="siteDetails.PrimaryContactPhone" class="form-control" placeholder="Primary Contact Phone No." required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="PrimaryContactEmailAddress" class="Lable_style">Primary Contact Email Address.<span>*</span></label>
+                            <input type="text" name="PrimaryContactEmailAddress" id="PrimaryContactEmailAddress" [(ngModel)]="siteDetails.PrimaryContactEmailAddress" class="form-control" placeholder="Primary Contact Email Address" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="ListAnyPrimaryTheraputicAreas" class="Lable_style">List any Primary Therapeutic Areas (Each separated by commas(,)</label>
+                            <input type="text" name="ListAnyPrimaryTheraputicAreas" id="ListAnyPrimaryTheraputicAreas" [(ngModel)]="siteDetails.ListAnyPrimaryTheraputicAreas" class="form-control" placeholder="List Any Primary Theraputic Areas" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="StageOfResearchInvolvment" class="Lable_style">Stages of Research Involvement</label>
+                            <input type="text" name="StageOfResearchInvolvment" id="StageOfResearchInvolvment" [(ngModel)]="siteDetails.StageOfResearchInvolvment" class="form-control" placeholder="Stages of Research Involvement" required>
                         </div>
 
                         <!-- <div class="col-md-6">

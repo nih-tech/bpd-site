@@ -13,25 +13,31 @@ export class RegisterYourSiteFormComponent implements OnInit {
 
   @Input() siteDetails = { 
     organizationName: "",
-    companyName: "",
+    companyWebsite: "",
     Country: "",
     State: "",
     City: "",
-    PostalCOde: "",
+    PostalCode: "",
+    StreetAddress:"",
+    Address2:"",
     FirstName: "",
     LastName: "",
-    PrimaryContactNumber: 0,
-    PrimaryContactTitle: "",
-    PrimaryContactPhoneNumber: 0,
-    stageofResearchInvolvment: ""
+    Tittle:"",
+    PrimaryContactName:"",
+    PrimaryContactTittle: "",
+    PrimaryContactPhone: 0,
+    PrimaryContactEmailAddress:"",
+    ListAnyPrimaryTheraputicAreas:"",
+    StageOfResearchInvolvment: ""
   }
 
   constructor() { }
 
   ngOnInit(): void {}
   registerYourSite(siteDetails: any) {
-    axios.post('http://localhost:1337/registration-forms', siteDetails).then(response => {
+    axios.post('http://192.168.18.141:1337/registration-forms', siteDetails).then(response => {
       console.log(response);
+      // 192.168.18.141 for testing at hamza ip
     });
   }
 }
