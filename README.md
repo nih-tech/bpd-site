@@ -6,9 +6,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Libraries
+Run npm 
+
+   - install bootstrap
+   - install jquery
+   - install slick carousel
+   - install font awesome.
+
+To get more help visit [Angular installation](https://ng-bootstrap.github.io/#/getting-started)
+
+## Call libraries in angular.json
+![angularjsonFile](https://user-images.githubusercontent.com/73118439/142809795-e04ef57a-8f62-43af-92a2-38c203871671.JPG)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
 
 ## Build
 
