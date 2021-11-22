@@ -35,8 +35,9 @@ export class RegisterYourSiteFormComponent implements OnInit {
 
   ngOnInit(): void {}
   registerYourSite(siteDetails: any) {
-    axios.post('http://192.168.18.141:1337/registration-forms', siteDetails).then(response => {
+    axios.post('http://localhost:1337/registration-forms', siteDetails).then(response => {
       console.log(response);
+      // localhost
       // 192.168.18.141 for testing at hamza ip
     });
   }
