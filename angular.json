@@ -30,7 +30,8 @@
               "src/assets/Libraries/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css",
               "./node_modules/slick-carousel/slick/slick.css",
-              "./node_modules/slick-carousel/slick/slick-theme.css"
+              "./node_modules/slick-carousel/slick/slick-theme.css",
+              "src/assets/Libraries/Fonts/fontawesome-free-5.15.4-web/css/all.css"
             ],
             "scripts": [
               "src/assets/Libraries/jquery/dist/jquery.js",

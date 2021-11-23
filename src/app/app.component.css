@@ -1,6 +1,7 @@
 /*....................Navbar.....................//*/
 .navbarStyle{
     background-color: white!important;
+    margin-bottom: 15px;
 }
 .navbarLogo img{
     width: 190px;

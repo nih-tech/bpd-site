@@ -199,6 +199,6 @@ tr:nth-child(odd) {background-color: mistyrose;}
 
 /* ============unitab============= */
 .uni_div_images img{
-width: 200px;
+width: 100%;
 margin-top: 15px;
 }
