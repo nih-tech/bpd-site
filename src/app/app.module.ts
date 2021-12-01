@@ -39,6 +39,8 @@ import { PSCIComponent } from './SideBarLinks/psci/psci.component';
 import { QASIComponent } from './SideBarLinks/qasi/qasi.component';
 import { SOQIComponent } from './SideBarLinks/soqi/soqi.component';
 import { GlobalChangeComponent } from './SideBarLinks/global-change/global-change.component';
+import { GetInvolvedComponent } from './TypeForm/get-involved/get-involved.component';
+// import {angularTypeFormModule} from 'angular-TypeForm';
 
 
 @NgModule({
@@ -77,7 +79,8 @@ import { GlobalChangeComponent } from './SideBarLinks/global-change/global-chang
     PSCIComponent,
     QASIComponent,
     SOQIComponent,
-    GlobalChangeComponent
+    GlobalChangeComponent,
+    GetInvolvedComponent
   ],
   imports: [
     BrowserModule,
@@ -85,6 +88,7 @@ import { GlobalChangeComponent } from './SideBarLinks/global-change/global-chang
     SlickCarouselModule,
     NoopAnimationsModule,
     FormsModule,
+    // angularTypeFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]

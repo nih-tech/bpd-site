@@ -35,6 +35,7 @@ import { PSCIComponent } from './SideBarLinks/psci/psci.component';
 import { QASIComponent } from './SideBarLinks/qasi/qasi.component';
 import { SOQIComponent } from './SideBarLinks/soqi/soqi.component';
 import { GlobalChangeComponent } from './SideBarLinks/global-change/global-change.component';
+import { GetInvolvedComponent } from './TypeForm/get-involved/get-involved.component';
 
 const routes: Routes = [
   { path: '',   redirectTo: '/Index', pathMatch: 'full' }, // redirect to `first-componen
@@ -69,6 +70,7 @@ const routes: Routes = [
   // =====================Forms=======================
   { path: 'get-involved-form', component: GetInvolvedFormComponent },
   { path: 'register-your-site-form', component: RegisterYourSiteFormComponent },
+  { path: 'GetInvolved', component: GetInvolvedComponent },
   // =====================Side Panel Links=======================
   { path: 'GERI', component: GERIComponent },
   { path: 'PSCI', component: PSCIComponent },
