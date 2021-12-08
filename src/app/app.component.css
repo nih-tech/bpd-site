@@ -1,4 +1,4 @@
-.dropdown-menu{
+.dropdown-menu {
     z-index: 1000;
     /* display: none; */
     min-width: 10rem;
@@ -10,68 +10,92 @@
     list-style: none;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
+    border: 1px solid rgba(0, 0, 0, .15);
     border-radius: 0.25rem;
 }
+
+
 /*....................Navbar.....................//*/
-.navbarStyle{
+
+.navbarStyle {
     background-color: white!important;
     margin-bottom: 0px;
 }
-.navbarLogo img{
+
+.navbarLogo img {
     width: 190px;
 }
+
 .navList li {
     /* padding-right: 10px; */
 }
-.navList li a{
+
+.navList li a {
     font-weight: 700;
     color: #4153f2;
     font-size: 16px;
 }
-.navList li a:hover{
+
+.navList li a:hover {
     font-weight: 700;
     color: white;
     font-size: 16px;
     background-color: #4153f2;
 }
-.navList li a:active{
+
+.navList li a:active {
     font-weight: 700;
     color: white;
     font-size: 16px;
 }
+
+
 /* ===== to text align center nav items just uncomment this==== */
+
+
 /* @media (max-width: 992px){
     .navList li a {
     text-align: center;
 }
 } */
+
+
 /*....................footer.....................//*/
+
 .footer_styling {
     text-align: center;
     margin-top: 30px;
     top: auto;
+    background-color: #4153f2;
+    padding: 20px;
 }
-    .footer_styling p{
-        color: #4153f2;
-        font-size: 15px;
-    }
-    .footer_styling span {
-        font-weight:600; 
-        font-size:15px;
-    }
 
-    .footer_styling ul {
-        list-style: none;
-        display: inline-flex;
-    }
+.footer_styling p {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 2px!important;
+}
 
-        .footer_styling ul li {
-            display: inline;
-        }
+.footer_styling span {
+    font-weight: 600;
+    font-size: 13px;
+}
 
-            .footer_styling ul li a {
-                padding-right: 15px;
-                color: green;
-                font-size: 16px;
-            }
+.footer_styling ul {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.footer_styling ul li {
+    display: inline;
+}
+
+.footer_styling ul li a {
+    padding-right: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    text-decoration: none;
+}

@@ -1,194 +1,252 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-  /*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
   # Sections
   --------------------------------------------------------------*/
 
-  .blog .entry .entry-img {
+.blog .entry .entry-img {
     max-height: 300px;
     /* margin: -30px -30px 20px -30px; */
     overflow: hidden;
-  }
+}
 
-  .blog .sidebar .sidebar-title {
+.blog .sidebar .sidebar-title {
     font-size: 20px;
     font-weight: 700;
     padding: 0 0 0 0;
     margin: 0 0 15px 0;
     color: #4153f2;
     position: relative;
-  }
-  .blog .sidebar {
+}
+
+.blog .sidebar {
     background-color: #f7f8fb;
 }
-  .blog .sidebar .categories ul a {
+
+.blog .sidebar .categories ul a {
     color: #4153f2;
     transition: 0.3s;
     text-decoration: none!important;
-  }
-  .blog .sidebar .categories ul a:hover {
+}
+
+.blog .sidebar .categories ul a:hover {
     color: #4154f1;
-  }
-  .blog .sidebar .categories ul a span {
+}
+
+.blog .sidebar .categories ul a span {
     padding-left: 5px;
     color: #aaaaaa;
     font-size: 14px;
-  }
- 
-  /*==============================Dropdown Pages Styling =========================*/
-  /*==============================Dropdown Pages Styling =========================*/
-  /*==============================Dropdown Pages Styling =========================*/
-  .container_manual{
-      padding:10px 50px;
-  }
-  .entry_section_styling ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-      .entry_section_styling ul li {
-          display: flex;
-      }
-          .entry_section_styling ul li i {
-              margin-right: 10px;
-          }
-  .side_div_links {
-      padding: 30px 15px 15px 15px;
-  }
-  .side_div_links ul hr {
-      /*background-color:white;*/
-       margin: 5px; 
-      color: inherit;
-      background-color: black;
-      border: 0;
-      opacity: .25;
-      height:1px;
-  }
-  .side_div_links ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-  .side_div_links ul li {
-      display: flex;
-      list-style-type: none;
-  }
-  .sidebar .side_div_links ul li a{
+}
+
+
+/*==============================Dropdown Pages Styling =========================*/
+
+
+/*==============================Dropdown Pages Styling =========================*/
+
+
+/*==============================Dropdown Pages Styling =========================*/
+
+.container_manual {
+    padding: 10px 50px;
+}
+
+.entry_section_styling ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.entry_section_styling ul li {
+    display: flex;
+}
+
+.entry_section_styling ul li i {
+    margin-right: 10px;
+}
+
+.side_div_links {
+    padding: 30px 15px 15px 15px;
+}
+
+.side_div_links ul hr {
+    /*background-color:white;*/
+    margin: 5px;
+    color: inherit;
+    background-color: black;
+    border: 0;
+    opacity: .25;
+    height: 1px;
+}
+
+.side_div_links ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.side_div_links ul li {
+    display: flex;
+    list-style-type: none;
+}
+
+.sidebar .side_div_links ul li a {
     text-decoration: none!important;
 }
-      .side_div_links ul li i {
-          margin-right: 10px;
-          color: #4153f2;
-      }
-  
-  
-  .bg_yellow {
-      padding: 10px 15px 15px 15px;
-      border-top: 1px solid #c1c5cc;
-  }
-  .bg_yellow ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-      .bg_yellow ul li {
-          display: flex;
-      }
-          .bg_yellow ul li i {
-              margin-right: 10px;
-  
-          }
-          .blog .entry .entry-title {
-            font-size: 28px;
-            font-weight: bold;
-            padding: 0;
-            margin: 20px 0 20px 0;
-            color: #4153f2;
-        }
-      .bg_yellow .buton_Link_Forms {
-        margin-top: 30px;
-        background-image: url(\src\assets\Images\bg_yellow.png);
-        background-color: none;
-        height: 60px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-  
-      .bg_yellow .buton_Link_Forms a {
-          font-size: 20px;
-          font-weight: 700;
-          color: white;
-          padding: 15px;
-          display: -webkit-inline-box;
-          text-decoration: none;
-      }
-  
-      .Allies_div {
-        margin-top: 45px;
-        padding: 10px 15px 15px 15px;
-        border-top: 1px solid #c1c5cc;
-        text-decoration: none!important;
-    }
-        .Allies_div ul {
-            list-style-type: none;
-            padding-left: 5px;
-        }
-            .Allies_div ul li {
-                display:flex;
-            }
-            .Allies_div ul li a{
-                color: #4153f2;
-                text-decoration: none!important;
-            }
-                .Allies_div ul li i {
-                    margin-right: 10px;
-                    color: #4153f2;
-                }
-        .Allies_div .buton_Link_Forms {
-            margin-top: 30px;
-            background-image: url(\src\assets\Images\bg_volet.png);
-            background-color: none;
-            height: 60px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-            .Allies_div .buton_Link_Forms a {
-                font-size: 20px;
-                font-weight: 700;
-                color: white;
-                padding: 15px;
-                display: -webkit-inline-box;
-                text-decoration: none;
-            }
+
+.side_div_links ul li i {
+    margin-right: 10px;
+    color: #4153f2;
+}
+
+.All_Buttons {
+    text-align: center;
+}
+
+.All_Buttons button {
+    min-width: 195px;
+    background-color: #4153f2;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.bg_yellow {
+    padding: 10px 15px 15px 15px;
+    border-top: 1px solid #c1c5cc;
+}
+
+.bg_yellow ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.bg_yellow ul li {
+    display: flex;
+}
+
+.bg_yellow ul li i {
+    margin-right: 10px;
+}
+
+.blog .entry .entry-title {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 20px 0 20px 0;
+    color: #4153f2;
+}
+
+.bg_yellow .buton_Link_Forms {
+    margin-top: 30px;
+    background-image: url(\src\assets\Images\bg_yellow.png);
+    background-color: none;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg_yellow .buton_Link_Forms a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+    display: -webkit-inline-box;
+    text-decoration: none;
+}
+
+.Allies_div {
+    margin-top: 45px;
+    padding: 10px 15px 15px 15px;
+    border-top: 1px solid #c1c5cc;
+    text-decoration: none!important;
+}
+
+.Allies_div ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.Allies_div ul li {
+    display: flex;
+}
+
+.Allies_div ul li a {
+    color: #4153f2;
+    text-decoration: none!important;
+}
+
+.Allies_div ul li i {
+    margin-right: 10px;
+    color: #4153f2;
+}
+
+.Allies_div .buton_Link_Forms {
+    margin-top: 30px;
+    background-image: url(\src\assets\Images\bg_volet.png);
+    background-color: none;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Allies_div .buton_Link_Forms a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+    display: -webkit-inline-box;
+    text-decoration: none;
+}
+
+
 /* ============table==================== */
-.Uni_ind_Table{
+
+.Uni_ind_Table {
     min-width: 80%;
     border: 3px solid white;
     margin: auto;
     color: white;
 }
-.Uni_ind_Table tr th{
+
+.Uni_ind_Table tr th {
     width: 50%;
     background-color: #950006;
     border: 3px solid white;
     height: 45px;
     padding: 10px;
 }
-.Uni_ind_Table tr td{
+
+.Uni_ind_Table tr td {
     border: 3px solid white;
     height: 35px;
     padding: 7px;
     color: black;
 }
-.Uni_ind_Table tr td a{
+
+.Uni_ind_Table tr td a {
     text-decoration: none;
     color: black;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
-tr:nth-child(odd) {background-color: mistyrose;}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: mistyrose;
+}
+
 
 /* ====================page=================== */
-.heading5{
+
+.heading5 {
     font-size: 18px;
     font-weight: bold;
     padding: 0;
@@ -198,7 +256,8 @@ tr:nth-child(odd) {background-color: mistyrose;}
 
 
 /* ============unitab============= */
-.uni_div_images img{
-width: 100%;
-margin-top: 15px;
+
+.uni_div_images img {
+    width: 100%;
+    margin-top: 15px;
 }

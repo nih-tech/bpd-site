@@ -1,296 +1,346 @@
-
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
   # Sections
   --------------------------------------------------------------*/
-  
-  .blog .entry .entry-img {
+
+.blog .entry .entry-img {
     max-height: 300px;
     /* margin: -30px -30px 20px -30px; */
     overflow: hidden;
-  }
+}
 
-  .blog .sidebar .sidebar-title {
+.blog .sidebar .sidebar-title {
     font-size: 20px;
     font-weight: 700;
     padding: 0 0 0 0;
     margin: 0 0 15px 0;
     color: #4153f2;
     position: relative;
-  }
-  .blog .sidebar {
+}
+
+.blog .sidebar {
     background-color: #f7f8fb;
 }
-  .blog .sidebar .categories ul a {
+
+.blog .sidebar .categories ul a {
     color: #4153f2;
     transition: 0.3s;
     text-decoration: none!important;
-  }
-  .blog .sidebar .categories ul a:hover {
+}
+
+.blog .sidebar .categories ul a:hover {
     color: #4154f1;
-  }
-  .blog .sidebar .categories ul a span {
+}
+
+.blog .sidebar .categories ul a span {
     padding-left: 5px;
     color: #aaaaaa;
     font-size: 14px;
-  }
-  /*--------------------------------------------------------------
+}
+
+
+/*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
-  .Butn_div .Butn_1  {
-      text-align:center;
-  }
-      .Butn_div .Butn_1 a .Small_text {
-          font-size:11px;
-      }
-      .Butn_div .Butn_1 a {
-          background: rgba(221,203,73,255);
-          color: white;
-          border: 1px solid transparent;
-          padding: 0px 60px 0px 0px;
-          border-radius: 0px 60px 60px 0px;
-          display: inline-block;
-          /*height: 28px;*/
-          line-height: 28px;
-          position: relative;
-          text-decoration: none;
-          /*min-width: 260px;*/
-          /*width: 100px*/
-      }
-  
-      .Butn_div .Butn_1 a:before {
-          background: #950006;
-          border: none;
-          content: '';
-          display: block;
-          /*height: 20px;*/
-          left: 90px;
-          position: absolute;
-          top: 4px;
-          -moz-transform: rotate(45deg);
-          -webkit-transform: rotate(45deg);
-          -o-transform: rotate(45deg);
-          transform: rotate(45deg);
-          /*width: 21px;*/
-      }
-  
-      .Butn_div .Butn_1 a button {
-          /*color: #fff;*/
-          background: none;
-          border: none;
-          font-weight: bold;
-          position: relative;
-          /*width: 120px;*/
-          /*height: 28px;*/
-      }
-          .Butn_div .Butn_1 a button {
-              text-align: left !important;
-              min-width: 200px;
-          }
-  
-  
-  
-  
-  .Butn_div .Butn_2 {
-      text-align: center;
-      margin-top:40px;
-  }
-  
-      .Butn_div .Butn_2 a .Small_text {
-          font-size: 11px;
-      }
-  
-      .Butn_div .Butn_2 a {
-          background: rgba(221,203,73,255);
-          color: white;
-          border: 1px solid transparent;
-          padding: 0px 60px 0px 0px;
-          border-radius: 0px 60px 60px 0px;
-          display: inline-block;
-          /*height: 28px;*/
-          line-height: 28px;
-          position: relative;
-          text-decoration: none;
-          /*width: 100px*/
-          
-      }
-  
-          .Butn_div .Butn_2 a:before {
-              background: #950006;
-              border: none;
-              content: '';
-              display: block;
-              /*height: 20px;*/
-              left: 90px;
-              position: absolute;
-              top: 4px;
-              -moz-transform: rotate(45deg);
-              -webkit-transform: rotate(45deg);
-              -o-transform: rotate(45deg);
-              transform: rotate(45deg);
-              /*width: 21px;*/
-          }
-  
-          .Butn_div .Butn_2 a button {
-              /*color: #fff;*/
-              background: none;
-              border: none;
-              font-weight: bold;
-              position: relative;
-              min-width: 200px;
-              /*width: 120px;*/
-              /*height: 28px;*/
-          }
-  
-          .Butn_div .Butn_2 a button {
-              text-align: left !important;
-          }
-  
-  /*==============================Dropdown Pages Styling =========================*/
-  /*==============================Dropdown Pages Styling =========================*/
-  /*==============================Dropdown Pages Styling =========================*/
-  .container_manual{
-      padding:0px 50px;
-  }
-  .entry_section_styling ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-      .entry_section_styling ul li {
-          display: flex;
-      }
-          .entry_section_styling ul li i {
-              margin-right: 10px;
-          }
-  .side_div_links {
-      padding: 30px 15px 15px 15px;
-  }
-  .side_div_links ul hr {
-      /*background-color:white;*/
-       margin: 5px; 
-      color: inherit;
-      background-color: black;
-      border: 0;
-      opacity: .25;
-      height:1px;
-  }
-  .side_div_links ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-  .side_div_links ul li {
-      display: flex;
-      list-style-type: none;
-  }
-  .sidebar .side_div_links ul li a{
+
+.Butn_div .Butn_1 {
+    text-align: center;
+}
+
+.Butn_div .Butn_1 a .Small_text {
+    font-size: 11px;
+}
+
+.Butn_div .Butn_1 a {
+    background: rgba(221, 203, 73, 255);
+    color: white;
+    border: 1px solid transparent;
+    padding: 0px 60px 0px 0px;
+    border-radius: 0px 60px 60px 0px;
+    display: inline-block;
+    /*height: 28px;*/
+    line-height: 28px;
+    position: relative;
+    text-decoration: none;
+    /*min-width: 260px;*/
+    /*width: 100px*/
+}
+
+.Butn_div .Butn_1 a:before {
+    background: #950006;
+    border: none;
+    content: '';
+    display: block;
+    /*height: 20px;*/
+    left: 90px;
+    position: absolute;
+    top: 4px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    /*width: 21px;*/
+}
+
+.Butn_div .Butn_1 a button {
+    /*color: #fff;*/
+    background: none;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    /*width: 120px;*/
+    /*height: 28px;*/
+}
+
+.Butn_div .Butn_1 a button {
+    text-align: left !important;
+    min-width: 200px;
+}
+
+.Butn_div .Butn_2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Butn_div .Butn_2 a .Small_text {
+    font-size: 11px;
+}
+
+.Butn_div .Butn_2 a {
+    background: rgba(221, 203, 73, 255);
+    color: white;
+    border: 1px solid transparent;
+    padding: 0px 60px 0px 0px;
+    border-radius: 0px 60px 60px 0px;
+    display: inline-block;
+    /*height: 28px;*/
+    line-height: 28px;
+    position: relative;
+    text-decoration: none;
+    /*width: 100px*/
+}
+
+.Butn_div .Butn_2 a:before {
+    background: #950006;
+    border: none;
+    content: '';
+    display: block;
+    /*height: 20px;*/
+    left: 90px;
+    position: absolute;
+    top: 4px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    /*width: 21px;*/
+}
+
+.Butn_div .Butn_2 a button {
+    /*color: #fff;*/
+    background: none;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    min-width: 200px;
+    /*width: 120px;*/
+    /*height: 28px;*/
+}
+
+.Butn_div .Butn_2 a button {
+    text-align: left !important;
+}
+
+
+/*==============================Dropdown Pages Styling =========================*/
+
+
+/*==============================Dropdown Pages Styling =========================*/
+
+
+/*==============================Dropdown Pages Styling =========================*/
+
+.container_manual {
+    padding: 0px 50px;
+}
+
+.entry_section_styling ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.entry_section_styling ul li {
+    display: flex;
+}
+
+.entry_section_styling ul li i {
+    margin-right: 10px;
+}
+
+.side_div_links {
+    padding: 30px 15px 15px 15px;
+}
+
+.side_div_links ul hr {
+    /*background-color:white;*/
+    margin: 5px;
+    color: inherit;
+    background-color: black;
+    border: 0;
+    opacity: .25;
+    height: 1px;
+}
+
+.side_div_links ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.side_div_links ul li {
+    display: flex;
+    list-style-type: none;
+}
+
+.sidebar .side_div_links ul li a {
     text-decoration: none!important;
 }
-      .side_div_links ul li i {
-          margin-right: 10px;
-          color: #4153f2;
-      }
-  
-  .side_div_p1 .back_img {
-       /* background-image: url(\src\assets\Images\bg_yellow.png); */
-      /* background-color: none; */
-      /*height: 60px;*/
-      /* background-position: center; */
-      background-repeat: repeat-x;
-      /* background-size: cover; */
-      position: relative;
-      padding: 30px 15px 15px 15px;
-  }
-  .side_div_p1 {
-      border-top: 1px solid #c1c5cc;
-      /*padding: 30px 15px 15px 15px;*/
-  }
-  .side_div_p1 ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-  .side_div_p1 ul li{
-      display: flex;
-  }
-      .side_div_p1 ul i {
-          margin-right: 10px;
-      }
-  .bg_yellow {
-      padding: 10px 15px 15px 15px;
-      border-top: 1px solid #c1c5cc;
-  }
-  .bg_yellow ul {
-      list-style-type: none;
-      padding-left: 5px;
-  }
-      .bg_yellow ul li {
-          display: flex;
-      }
-          .bg_yellow ul li i {
-              margin-right: 10px;
-  
-          }
-          .blog .entry .entry-title {
-            font-size: 28px;
-            font-weight: bold;
-            padding: 0;
-            margin: 0 0 20px 0;
-            color: #4153f2;
-        }
-      .bg_yellow .buton_Link_Forms {
-        margin-top: 30px;
-        background-image: url(\src\assets\Images\bg_yellow.png);
-        background-color: none;
-        height: 60px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-  
-      .bg_yellow .buton_Link_Forms a {
-          font-size: 20px;
-          font-weight: 700;
-          color: white;
-          padding: 15px;
-          display: -webkit-inline-box;
-          text-decoration: none;
-      }
-  
-      .Allies_div {
-        margin-top: 45px;
-        padding: 10px 15px 15px 15px;
-        border-top: 1px solid #c1c5cc;
-        text-decoration: none!important;
-    }
-        .Allies_div ul {
-            list-style-type: none;
-            padding-left: 5px;
-        }
-            .Allies_div ul li {
-                display:flex;
-            }
-            .Allies_div ul li a{
-                color: #4153f2;
-                text-decoration: none!important;
-            }
-                .Allies_div ul li i {
-                    margin-right: 10px;
-                    color: #4153f2;
-                }
-        .Allies_div .buton_Link_Forms {
-            margin-top: 30px;
-            background-image: url(\src\assets\Images\bg_volet.png);
-            background-color: none;
-            height: 60px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-            .Allies_div .buton_Link_Forms a {
-                font-size: 20px;
-                font-weight: 700;
-                color: white;
-                padding: 15px;
-                display: -webkit-inline-box;
-                text-decoration: none;
-            }
+
+.side_div_links ul li i {
+    margin-right: 10px;
+    color: #4153f2;
+}
+
+.side_div_p1 .back_img {
+    /* background-image: url(\src\assets\Images\bg_yellow.png); */
+    /* background-color: none; */
+    /*height: 60px;*/
+    /* background-position: center; */
+    background-repeat: repeat-x;
+    /* background-size: cover; */
+    position: relative;
+    padding: 30px 15px 15px 15px;
+}
+
+.side_div_p1 {
+    border-top: 1px solid #c1c5cc;
+    /*padding: 30px 15px 15px 15px;*/
+}
+
+.side_div_p1 ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.side_div_p1 ul li {
+    display: flex;
+}
+
+.side_div_p1 ul i {
+    margin-right: 10px;
+}
+
+.All_Buttons {
+    text-align: center;
+}
+
+.All_Buttons button {
+    min-width: 195px;
+    background-color: #4153f2;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.bg_yellow {
+    padding: 10px 15px 15px 15px;
+    border-top: 1px solid #c1c5cc;
+}
+
+.bg_yellow ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.bg_yellow ul li {
+    display: flex;
+}
+
+.bg_yellow ul li i {
+    margin-right: 10px;
+}
+
+.blog .entry .entry-title {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 20px 0;
+    color: #4153f2;
+}
+
+.bg_yellow .buton_Link_Forms {
+    margin-top: 30px;
+    background-image: url(\src\assets\Images\bg_yellow.png);
+    background-color: none;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg_yellow .buton_Link_Forms a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+    display: -webkit-inline-box;
+    text-decoration: none;
+}
+
+.Allies_div {
+    margin-top: 45px;
+    padding: 10px 15px 15px 15px;
+    border-top: 1px solid #c1c5cc;
+    text-decoration: none!important;
+}
+
+.Allies_div ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.Allies_div ul li {
+    display: flex;
+}
+
+.Allies_div ul li a {
+    color: #4153f2;
+    text-decoration: none!important;
+}
+
+.Allies_div ul li i {
+    margin-right: 10px;
+    color: #4153f2;
+}
+
+.Allies_div .buton_Link_Forms {
+    margin-top: 30px;
+    background-image: url(\src\assets\Images\bg_volet.png);
+    background-color: none;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Allies_div .buton_Link_Forms a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+    display: -webkit-inline-box;
+    text-decoration: none;
+}

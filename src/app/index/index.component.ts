@@ -12,6 +12,12 @@ export class IndexComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  registerYourSite(){
+    window.open('https://n8dchycsbzy.typeform.com/to/SgaWNL9P', "_blank");
+  }
+  getinvolved(){
+    window.open('https://n8dchycsbzy.typeform.com/to/JweGrnr9', "_blank");
+  }
   slides = [
     {img: "assets/Images/Alies_logo_DRAP.png"},
     {img: "assets/Images/Alies_logo_IPO.png"},
