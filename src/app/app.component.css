@@ -41,6 +41,8 @@
     color: white;
     font-size: 16px;
     background-color: #4153f2;
+    border-radius: 5px;
+    box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
 }
 
 .navList li a:active {
@@ -98,4 +100,14 @@
     font-weight: 600;
     margin-top: 5px;
     text-decoration: none;
+}
+
+.link_style_ftr a {
+    color: white;
+    text-decoration: none;
+}
+
+.link_style_ftr a:hover {
+    color: white;
+    text-decoration: underline;
 }

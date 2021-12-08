@@ -196,6 +196,7 @@ section {
     padding: 15px;
     border-radius: 7px;
     color: #fff;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
 }
 
 .index_mis {
