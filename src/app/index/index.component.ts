@@ -31,7 +31,24 @@ export class IndexComponent implements OnInit {
     "autoplay" : true,
     
     // "infinite": true,
-    "dots": true,
+    "dots": false,
+    responsive: [
+      {
+        breakpoint: 860,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          
+        }
+      }
+    ]
   };
   
   

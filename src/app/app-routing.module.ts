@@ -37,7 +37,8 @@ import { SOQIComponent } from './SideBarLinks/soqi/soqi.component';
 import { GlobalChangeComponent } from './SideBarLinks/global-change/global-change.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/Index', pathMatch: 'full' }, // redirect to `first-componen
+  { path: '',   component: IndexComponent },
+  { path: 'index',   component: IndexComponent },
   // =====================Stakeholders Dropdown Paths=======================
   { path: 'CROCMOs', component: CROCMOsComponent },
   { path: 'Index', component: IndexComponent },

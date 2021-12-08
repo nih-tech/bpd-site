@@ -116,93 +116,12 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="">
-    <div class="row m-0" style="justify-content: space-evenly;">
-
-        <div class="col-md-3">
-            <div style="font-weight: 700; min-height:260px; background-color: #F2F4FF; border-radius: 7px; color: #5665E3;">
-                <p style="padding: 50px 20px 25px 20px;">
-                    Bringing together diverse stake holders from across the clinical research enterprise and harness their expertise and investments to collaboratively build an open, integrated global research system
-                </p>
-                <div class="app-card vision-card">
-                    <svg class="vertical" width="7" height="200" viewBox="0 0 7 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3.5 277.001L6.38675 272.001H0.613249L3.5 277.001ZM4 272.501L4 -0.000946045H3L3 272.501H4Z"
-                    fill="#5665E3" />
-                    </svg>
-                    <svg class="horizon" width="200" height="6" viewBox="0 0 278 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M277.002 3L272.002 0.113249V5.88675L277.002 3ZM272.502 2.5L3.05176e-05 2.5V3.5L272.502 3.5V2.5Z"
-                    fill="#5665E3" />
-                    </svg>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div style="font-weight: 700; min-height:260px; background-color: #5665E3; border-radius: 7px; color: white; padding: 50px 20px 50px 20px;">
-                <p>
-                    Integrating information technologies and interoperable standards, policies and practices across the globe
-                </p>
-                <div class="app-card vision-card">
-                    <svg class="horizon" width="200" height="6" viewBox="0 0 278 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M277.002 3L272.002 0.113249V5.88675L277.002 3ZM272.502 2.5L3.05176e-05 2.5V3.5L272.502 3.5V2.5Z"
-                    fill="#C0E778" />
-               </svg>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div style="font-weight: 700; min-height:260px; background-color: #F2F4FF; border-radius: 7px; color: #5665E3; padding: 50px 20px 50px 20px;">
-                <p>
-                    Enhancing drug development safety, quality and efficiency worldwide and industry wide to benefit all stake holders especially patients.
-                </p>
-                <div class="app-card vision-card">
-                    <svg class="horizon" width="200" height="6" viewBox="0 0 278 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M277.002 3L272.002 0.113249V5.88675L277.002 3ZM272.502 2.5L3.05176e-05 2.5V3.5L272.502 3.5V2.5Z"
-                    fill="#C0E778" />
-               </svg>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div> -->
-
-
 <!-- ==================allies slider======================= -->
 <div class="container index_mis">
     <h3>CTU-NIH Allies</h3>
 </div>
 <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)" (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
     <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-        <img src="{{ slide.img }}" alt="" style="width: 300px;">
+        <img src="{{ slide.img }}" alt="logo" width="100%">
     </div>
 </ngx-slick-carousel>

@@ -659,6 +659,11 @@ svg.horizon {
     margin-top: 30px;
 }
 
+.img_slides_sty {
+    max-width: 210px;
+    text-align: center;
+}
+
 
 /* .nav-btn {
     height: 47px;
